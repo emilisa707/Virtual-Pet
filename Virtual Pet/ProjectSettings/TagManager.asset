@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - nameInput
+  - energySlider
+  - happinessSlider
   layers:
   - Default
   - TransparentFX

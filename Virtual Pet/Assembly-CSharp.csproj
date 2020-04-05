@@ -62,11 +62,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\KeepNameInputValue.cs" />
-    <Compile Include="Assets\Script\PetNameInput.cs" />
-    <Compile Include="Assets\Script\PlaceholderOnClick.cs" />
-    <Compile Include="Assets\Script\PreventObjectFromBeingDestroy.cs" />
-    <Compile Include="Assets\Script\StartMenuManager.cs" />
+    <Compile Include="Assets\Script\InputNameScene\KeepNameInputValue.cs" />
+    <Compile Include="Assets\Script\InputNameScene\PetNameInput.cs" />
+    <Compile Include="Assets\Script\InputNameScene\PlaceholderOnClick.cs" />
+    <Compile Include="Assets\Script\MainScene\Game.cs" />
+    <Compile Include="Assets\Script\MainScene\GameStateData.cs" />
+    <Compile Include="Assets\Script\MainScene\Pet.cs" />
+    <Compile Include="Assets\Script\MainScene\PetBehavior.cs" />
+    <Compile Include="Assets\Script\MainScene\PetNameLabelController.cs" />
+    <Compile Include="Assets\Script\MainScene\UIController.cs" />
+    <Compile Include="Assets\Script\StartScene\PreventObjectFromBeingDestroy.cs" />
+    <Compile Include="Assets\Script\StartScene\StartMenuManager.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Luciel707/OneDrive/Documents/Unity/Virtual Pet/Virtual Pet/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
